@@ -1,0 +1,82 @@
+2026-05-21 18:47:55 [INFO   ] ShapeToLifeSmokeTest: Execution directory: C:\Users\MIKO\Documents\Miko3 Automation\reports\20260521_184755
+2026-05-21 18:47:55 [INFO   ] ShapeToLifeSmokeTest: Connecting to device via ADB...
+2026-05-21 18:47:55 [INFO   ] src.drivers.adb_utils: ADB binary validated: adb
+2026-05-21 18:47:55 [INFO   ] ShapeToLifeSmokeTest: Initializing test: ShapeToLifeSmokeTest
+2026-05-21 18:47:55 [INFO   ] src.utils.tts_utils: ✓ TTS output directory: audio
+2026-05-21 18:47:57 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-21 18:47:57 [INFO   ] framework.base.base_talent: STARTING TEST: Shape to Life Smoke (com.miko.shapeoflife)
+2026-05-21 18:47:57 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-21 18:47:57 [INFO   ] framework.base.base_talent: --- Setup Phase ---
+2026-05-21 18:47:57 [INFO   ] framework.base.base_talent:   [Step 1] Screen management
+2026-05-21 18:47:57 [INFO   ] src.drivers.adb_utils: Swiping (640,576) -> (640,144) in 300ms
+2026-05-21 18:48:00 [INFO   ] src.drivers.adb_utils: Setting screen brightness to 127
+2026-05-21 18:48:00 [INFO   ] src.drivers.adb_utils: Setting power mode to Stay On
+2026-05-21 18:48:02 [INFO   ] framework.base.base_talent: --- Execute Phase ---
+2026-05-21 18:48:02 [INFO   ] __main__: Starting Shape to Life smoke flow
+2026-05-21 18:48:02 [INFO   ] framework.base.base_talent:   [Step 2] Navigate to Home
+2026-05-21 18:48:02 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-21 18:48:05 [INFO   ] framework.base.base_talent:   [Step 3] Click on Apps / Explore button
+2026-05-21 18:48:05 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 644)
+2026-05-21 18:48:08 [INFO   ] src.drivers.adb_utils: Tapping at (1228, 53)
+2026-05-21 18:48:12 [INFO   ] src.drivers.adb_utils: Tapping at (444, 64)
+2026-05-21 18:48:15 [INFO   ] src.drivers.adb_utils: Inputting text: shape
+2026-05-21 18:48:21 [INFO   ] src.drivers.adb_utils: Key event: 66
+2026-05-21 18:48:25 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 665)
+2026-05-21 18:48:28 [INFO   ] framework.base.base_talent:   [Step 4] Launch Shape of Life
+2026-05-21 18:48:28 [INFO   ] src.drivers.adb_utils: Tapping at (217, 350)
+2026-05-21 18:48:52 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_4_shape_of_life_main_screen_1779369530.png
+2026-05-21 18:48:52 [INFO   ] framework.base.base_talent:   [Step 5] Redirect to Domestic Journey
+2026-05-21 18:48:52 [INFO   ] src.drivers.adb_utils: Tapping at (227, 550)
+2026-05-21 18:49:03 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_5_shape_of_life_domestic_journey_1779369537.png
+2026-05-21 18:49:03 [INFO   ] framework.base.base_talent:   [Step 6] Click on cow shape
+2026-05-21 18:49:03 [INFO   ] src.drivers.adb_utils: Tapping at (513, 333)
+2026-05-21 18:49:09 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_6_Cow shape selected_1779369548.png
+2026-05-21 18:49:09 [INFO   ] framework.base.base_talent:   [Step 7] Exit - Click on cross icon from skill
+2026-05-21 18:49:09 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-21 18:49:12 [INFO   ] framework.base.base_talent:   [Step 8] Exit - Click on exit icon
+2026-05-21 18:49:12 [INFO   ] src.drivers.adb_utils: Tapping at (439, 490)
+2026-05-21 18:49:15 [INFO   ] framework.base.base_talent:   [Step 9] Click on goat shape
+2026-05-21 18:49:15 [INFO   ] src.drivers.adb_utils: Tapping at (849, 490)
+2026-05-21 18:49:22 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_9_Goat shape selected_1779369560.png
+2026-05-21 18:49:22 [INFO   ] framework.base.base_talent:   [Step 10] Exit - Click on cross icon from skill
+2026-05-21 18:49:22 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-21 18:49:25 [INFO   ] framework.base.base_talent:   [Step 11] Exit - Click on exit icon
+2026-05-21 18:49:25 [INFO   ] src.drivers.adb_utils: Tapping at (439, 490)
+2026-05-21 18:49:26 [INFO   ] framework.base.base_talent:   [Step 12] Click on dog shape
+2026-05-21 18:49:26 [INFO   ] src.drivers.adb_utils: Tapping at (1111, 572)
+2026-05-21 18:49:33 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_12_Dog shape selected_1779369571.png
+2026-05-21 18:49:33 [INFO   ] framework.base.base_talent:   [Step 13] Exit - Click on cross icon from skill
+2026-05-21 18:49:33 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-21 18:49:36 [INFO   ] framework.base.base_talent:   [Step 14] Exit - Click on exit icon
+2026-05-21 18:49:36 [INFO   ] src.drivers.adb_utils: Tapping at (439, 490)
+2026-05-21 18:49:38 [INFO   ] framework.base.base_talent:   [Step 15] Click on Cat
+2026-05-21 18:49:38 [INFO   ] src.drivers.adb_utils: Tapping at (227, 543)
+2026-05-21 18:49:45 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_15_shape_of_life_cat_shape_1779369584.png
+2026-05-21 18:49:45 [INFO   ] framework.base.base_talent:   [Step 16] Complete Cat Shape
+2026-05-21 18:49:45 [INFO   ] src.drivers.adb_utils: Swiping (1046,199) -> (260,186) in 1500ms
+2026-05-21 18:49:52 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_16_cat_image_completed_1779369590.png
+2026-05-21 18:49:52 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 1500ms
+2026-05-21 18:49:59 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_16_cat_image_completed_1779369597.png
+2026-05-21 18:49:59 [INFO   ] src.drivers.adb_utils: Swiping (850,370) -> (350,305) in 1500ms
+2026-05-21 18:50:05 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_16_cat_image_completed_1779369603.png
+2026-05-21 18:50:05 [INFO   ] src.drivers.adb_utils: Swiping (1046,337) -> (340,330) in 1500ms
+2026-05-21 18:50:11 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_16_cat_image_completed_1779369609.png
+2026-05-21 18:50:11 [INFO   ] src.drivers.adb_utils: Swiping (864,526) -> (520,480) in 1500ms
+2026-05-21 18:50:18 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260521_184755\Screenshots\Shape to Life Smoke_16_cat_image_completed_1779369615.png
+2026-05-21 18:50:30 [INFO   ] framework.base.base_talent:   [Step 17] Exit Shape of Life
+2026-05-21 18:50:30 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-21 18:50:36 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-21 18:50:39 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-21 18:50:43 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-21 18:50:46 [INFO   ] framework.base.base_talent: --- Verify Phase ---
+2026-05-21 18:50:46 [INFO   ] framework.base.base_talent:   [Step 18] Verify no crashes
+2026-05-21 18:50:47 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.shapeoflife
+2026-05-21 18:50:47 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-21 18:50:48 [INFO   ] framework.base.base_talent: Teardown complete for Shape to Life Smoke
+2026-05-21 18:50:48 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-21 18:50:48 [INFO   ] framework.base.base_talent: TEST PASSED: Shape to Life Smoke (173.1s) — 18/18 steps passed, 0 steps failed
+2026-05-21 18:50:48 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-21 18:50:48 [INFO   ] ShapeToLifeSmokeTest: Generating standalone HTML report...
+2026-05-21 18:50:48 [INFO   ] framework.reporter.html_report: Report generated: reports\20260521_184755\AutomationReport_20260521_184755.html
+2026-05-21 18:50:48 [INFO   ] framework.reporter.html_report: Generating PDF report...
+2026-05-21 18:50:54 [INFO   ] framework.reporter.html_report: PDF Report generated: reports\20260521_184755\AutomationReport_20260521_184755.pdf
