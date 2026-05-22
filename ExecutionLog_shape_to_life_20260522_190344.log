@@ -1,0 +1,290 @@
+2026-05-22 19:03:44 [INFO   ] ShapeToLifeFlowTest: Execution directory: C:\Users\MIKO\Documents\Miko3 Automation\reports\shape_to_life_20260522_190344
+2026-05-22 19:03:44 [INFO   ] ShapeToLifeFlowTest: Connecting to device via ADB...
+2026-05-22 19:03:44 [INFO   ] src.drivers.adb_utils: ADB binary validated: adb
+2026-05-22 19:03:44 [INFO   ] ShapeToLifeFlowTest: Initializing test: ShapeToLifeFlowTest
+2026-05-22 19:03:44 [INFO   ] src.utils.tts_utils: ✓ TTS output directory: audio
+2026-05-22 19:03:45 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-22 19:03:45 [INFO   ] framework.base.base_talent: STARTING TEST: Shape to Life (com.miko.shapeoflife)
+2026-05-22 19:03:45 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-22 19:03:45 [INFO   ] framework.base.base_talent: --- Setup Phase ---
+2026-05-22 19:03:45 [INFO   ] framework.base.base_talent:   [Step 1] Screen management
+2026-05-22 19:03:46 [INFO   ] src.drivers.adb_utils: Swiping (640,576) -> (640,144) in 300ms
+2026-05-22 19:03:49 [INFO   ] src.drivers.adb_utils: Setting screen brightness to 127
+2026-05-22 19:03:49 [INFO   ] src.drivers.adb_utils: Setting power mode to Stay On
+2026-05-22 19:03:50 [INFO   ] framework.base.base_talent: --- Execute Phase ---
+2026-05-22 19:03:50 [INFO   ] __main__: Starting Shape to Life Flow Test
+2026-05-22 19:03:50 [INFO   ] framework.base.base_talent:   [Step 2] Navigate to Home
+2026-05-22 19:03:50 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-22 19:03:54 [INFO   ] framework.base.base_talent:   [Step 3] Test to verify user is able to Click on Apps / Explore
+2026-05-22 19:03:54 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 644)
+2026-05-22 19:03:57 [INFO   ] src.drivers.adb_utils: Tapping at (1228, 53)
+2026-05-22 19:04:00 [INFO   ] src.drivers.adb_utils: Tapping at (444, 64)
+2026-05-22 19:04:04 [INFO   ] src.drivers.adb_utils: Inputting text: shape
+2026-05-22 19:04:10 [INFO   ] src.drivers.adb_utils: Key event: 66
+2026-05-22 19:04:15 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 665)
+2026-05-22 19:04:18 [INFO   ] framework.base.base_talent:   [Step 4] Test to verify user can launch Shape of Life talent via search button
+2026-05-22 19:04:18 [INFO   ] src.drivers.adb_utils: Tapping at (217, 350)
+2026-05-22 19:04:42 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\shape_to_life_20260522_190344\Screenshots\Shape to Life_4_shape_of_life_main_screen_1779456880.png
+2026-05-22 19:04:42 [INFO   ] framework.base.base_talent:   [Step 5] Test to verify user is able to Click on Domestic shape journey
+2026-05-22 19:04:42 [INFO   ] src.drivers.adb_utils: Tapping at (227, 550)
+2026-05-22 19:04:51 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\shape_to_life_20260522_190344\Screenshots\Shape to Life_5_shape_of_life_domestic_journey_1779456886.png
+2026-05-22 19:04:51 [INFO   ] framework.base.base_talent:   [Step 6] Test to verify user is able to Click on cat category
+2026-05-22 19:04:51 [INFO   ] src.drivers.adb_utils: Tapping at (227, 543)
+2026-05-22 19:04:57 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\shape_to_life_20260522_190344\Screenshots\Shape to Life_6_shape_of_life_cat_animal_1779456895.png
+2026-05-22 19:04:57 [INFO   ] framework.base.base_talent:   [Step 7] Test to verify user can Drag and drop triangle shape properly
+2026-05-22 19:04:57 [INFO   ] src.drivers.adb_utils: Swiping (1046,199) -> (260,186) in 1500ms
+2026-05-22 19:05:00 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 1500ms
+2026-05-22 19:05:05 [INFO   ] framework.base.base_talent:   [Step 8] Test to verify user cannot Drag and drop incorrect triangle shape into different shape 
+2026-05-22 19:05:05 [INFO   ] src.drivers.adb_utils: Swiping (850,370) -> (350,305) in 1500ms
+2026-05-22 19:05:09 [INFO   ] src.drivers.adb_utils: Swiping (1046,337) -> (340,330) in 1500ms
+2026-05-22 19:05:14 [INFO   ] framework.base.base_talent:   [Step 9] Test to verify user can Drag and drop circle shape properly
+2026-05-22 19:05:14 [INFO   ] src.drivers.adb_utils: Swiping (850,370) -> (350,305) in 1500ms
+2026-05-22 19:05:18 [INFO   ] src.drivers.adb_utils: Swiping (1046,337) -> (340,330) in 1500ms
+2026-05-22 19:05:22 [INFO   ] framework.base.base_talent:   [Step 10] Test to verify user can Drag and drop oval shape properly
+2026-05-22 19:05:22 [INFO   ] src.drivers.adb_utils: Swiping (864,526) -> (520,480) in 1500ms
+2026-05-22 19:05:41 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\shape_to_life_20260522_190344\Screenshots\Shape to Life_10_cat_image_Completed_1779456937.png
+2026-05-22 19:05:41 [INFO   ] framework.base.base_talent:   [Step 11] Test to verify user can Click on cow shape
+2026-05-22 19:05:41 [INFO   ] src.drivers.adb_utils: Tapping at (513, 333)
+2026-05-22 19:05:46 [INFO   ] framework.base.base_talent:   [Step 12] Test to verify user can Click on circle and Drag and drop properly
+2026-05-22 19:05:46 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (260,286) in 1500ms
+2026-05-22 19:05:49 [INFO   ] framework.base.base_talent:   [Step 13] Test to verify user can Click on triangle and Drag and drop properly
+2026-05-22 19:05:49 [INFO   ] src.drivers.adb_utils: Swiping (1046,219) -> (200,199) in 1500ms
+2026-05-22 19:05:53 [INFO   ] src.drivers.adb_utils: Swiping (1046,200) -> (200,199) in 1500ms
+2026-05-22 19:05:58 [INFO   ] framework.base.base_talent:   [Step 14] Test to verify user can Click on semi-circle and Drag and drop properly
+2026-05-22 19:05:58 [INFO   ] src.drivers.adb_utils: Swiping (850,360) -> (160,300) in 1500ms
+2026-05-22 19:06:02 [INFO   ] src.drivers.adb_utils: Swiping (850,360) -> (260,300) in 1500ms
+2026-05-22 19:06:07 [INFO   ] framework.base.base_talent:   [Step 15] Test to verify user can Click on rectangle and Drag and drop properly
+2026-05-22 19:06:07 [INFO   ] src.drivers.adb_utils: Swiping (1050,355) -> (340,330) in 1500ms
+2026-05-22 19:06:11 [INFO   ] framework.base.base_talent:   [Step 16] Test to verify user cannot drag and drop incorrect rectangle shape into different shape 
+2026-05-22 19:06:11 [INFO   ] src.drivers.adb_utils: Swiping (850,360) -> (160,300) in 1500ms
+2026-05-22 19:06:15 [INFO   ] framework.base.base_talent:   [Step 17] Test to verify user can Click on vertical-rectangle (negative cases)
+2026-05-22 19:06:15 [INFO   ] src.drivers.adb_utils: Swiping (1050,355) -> (340,330) in 1500ms
+2026-05-22 19:06:19 [INFO   ] framework.base.base_talent:   [Step 18] Test to verify user can Click on vertical-rectangle 
+2026-05-22 19:06:19 [INFO   ] src.drivers.adb_utils: Swiping (1050,505) -> (240,430) in 1500ms
+2026-05-22 19:06:24 [INFO   ] src.drivers.adb_utils: Swiping (1050,505) -> (280,430) in 1500ms
+2026-05-22 19:06:28 [INFO   ] src.drivers.adb_utils: Swiping (1050,555) -> (200,430) in 1500ms
+2026-05-22 19:06:33 [INFO   ] src.drivers.adb_utils: Swiping (1050,500) -> (380,430) in 1500ms
+2026-05-22 19:06:36 [INFO   ] src.drivers.adb_utils: Swiping (1050,500) -> (480,430) in 1500ms
+2026-05-22 19:06:41 [INFO   ] framework.base.base_talent:   [Step 19] Test to verify user can Click on triangle and Drag and drop properly (on tail)
+2026-05-22 19:06:41 [INFO   ] src.drivers.adb_utils: Swiping (1059,235) -> (540,340) in 1500ms
+2026-05-22 19:06:45 [INFO   ] framework.base.base_talent:   [Step 20] Test to verify user can Click on rectangle and Drag and drop properly
+2026-05-22 19:06:45 [INFO   ] src.drivers.adb_utils: Swiping (1050,355) -> (520,330) in 1500ms
+2026-05-22 19:07:05 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\shape_to_life_20260522_190344\Screenshots\Shape to Life_20_cow_image_completed_1779457020.png
+2026-05-22 19:07:05 [INFO   ] framework.base.base_talent:   [Step 21] Test to verify user can click on goat shape
+2026-05-22 19:07:05 [INFO   ] src.drivers.adb_utils: Tapping at (849, 490)
+2026-05-22 19:07:09 [INFO   ] framework.base.base_talent:   [Step 22] Test to verify user can Click on circle and Drag and drop properly
+2026-05-22 19:07:09 [INFO   ] src.drivers.adb_utils: Swiping (1065,265) -> (280,260) in 1500ms
+2026-05-22 19:07:13 [INFO   ] src.drivers.adb_utils: Swiping (1065,265) -> (280,260) in 1500ms
+2026-05-22 19:07:18 [INFO   ] src.drivers.adb_utils: Swiping (1065,265) -> (280,260) in 1500ms
+2026-05-22 19:07:22 [INFO   ] src.drivers.adb_utils: Swiping (1065,265) -> (280,260) in 1500ms
+2026-05-22 19:07:26 [INFO   ] framework.base.base_talent:   [Step 23] Test to verify user can Click on oval and Drag and drop properly
+2026-05-22 19:07:26 [INFO   ] src.drivers.adb_utils: Swiping (855,215) -> (450,400) in 1500ms
+2026-05-22 19:07:30 [INFO   ] framework.base.base_talent:   [Step 24] Test to verify user can Click on semi-circle and Drag and drop properly
+2026-05-22 19:07:30 [INFO   ] src.drivers.adb_utils: Swiping (1065,370) -> (170,300) in 1500ms
+2026-05-22 19:07:34 [INFO   ] src.drivers.adb_utils: Swiping (1065,370) -> (370,300) in 1500ms
+2026-05-22 19:07:39 [INFO   ] framework.base.base_talent:   [Step 25] Test to verify user can Click on circle and Drag and drop properly (tail)
+2026-05-22 19:07:39 [INFO   ] src.drivers.adb_utils: Swiping (855,370) -> (550,350) in 1500ms
+2026-05-22 19:07:43 [INFO   ] framework.base.base_talent:   [Step 26] Test to verify user cannot drag and drop incorrect oval shape into different shape 
+2026-05-22 19:07:43 [INFO   ] src.drivers.adb_utils: Swiping (855,370) -> (550,350) in 1500ms
+2026-05-22 19:07:47 [INFO   ] framework.base.base_talent:   [Step 27] Test to verify user can Click on purple tall rect and Drag and drop properly
+2026-05-22 19:07:47 [INFO   ] src.drivers.adb_utils: Swiping (855,525) -> (265,480) in 1500ms
+2026-05-22 19:07:51 [INFO   ] src.drivers.adb_utils: Swiping (855,525) -> (265,480) in 1500ms
+2026-05-22 19:07:55 [INFO   ] src.drivers.adb_utils: Swiping (855,525) -> (465,480) in 1500ms
+2026-05-22 19:07:59 [INFO   ] src.drivers.adb_utils: Swiping (855,525) -> (465,480) in 1500ms
+2026-05-22 19:08:19 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\shape_to_life_20260522_190344\Screenshots\Shape to Life_27_goat_image_completed_1779457094.png
+2026-05-22 19:08:19 [INFO   ] framework.base.base_talent:   [Step 28] Test to verify user can Click on dog shape
+2026-05-22 19:08:19 [INFO   ] src.drivers.adb_utils: Tapping at (1111, 572)
+2026-05-22 19:08:24 [INFO   ] framework.base.base_talent:   [Step 29] Test to verify user can Click on oval shape
+2026-05-22 19:08:24 [INFO   ] src.drivers.adb_utils: Swiping (868,210) -> (410,195) in 1500ms
+2026-05-22 19:08:28 [INFO   ] framework.base.base_talent:   [Step 30] Test to verify user can Click on oval shape
+2026-05-22 19:08:28 [INFO   ] src.drivers.adb_utils: Swiping (1061,223) -> (210,195) in 1500ms
+2026-05-22 19:08:32 [INFO   ] framework.base.base_talent:   [Step 31] Test to verify user cannot drag and drop incorrect oval shape into different shape 
+2026-05-22 19:08:32 [INFO   ] src.drivers.adb_utils: Swiping (1005,210) -> (305,390) in 1500ms
+2026-05-22 19:08:37 [INFO   ] framework.base.base_talent:   [Step 32] Test to verify user can Click on pink circle
+2026-05-22 19:08:37 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (290,230) in 1500ms
+2026-05-22 19:08:41 [INFO   ] framework.base.base_talent:   [Step 33] Test to verify user can Click on blue big oval
+2026-05-22 19:08:41 [INFO   ] src.drivers.adb_utils: Swiping (1005,210) -> (305,390) in 1500ms
+2026-05-22 19:08:45 [INFO   ] framework.base.base_talent:   [Step 34] Test to verify user can Click on rectangle
+2026-05-22 19:08:45 [INFO   ] src.drivers.adb_utils: Swiping (1005,210) -> (200,500) in 1500ms
+2026-05-22 19:08:49 [INFO   ] src.drivers.adb_utils: Swiping (1005,210) -> (200,500) in 1500ms
+2026-05-22 19:08:53 [INFO   ] framework.base.base_talent:   [Step 35] Test to verify user can Click on rectangle
+2026-05-22 19:08:53 [INFO   ] src.drivers.adb_utils: Swiping (868,535) -> (345,510) in 1500ms
+2026-05-22 19:08:57 [INFO   ] src.drivers.adb_utils: Swiping (868,535) -> (345,510) in 1500ms
+2026-05-22 19:09:02 [INFO   ] src.drivers.adb_utils: Swiping (868,535) -> (345,510) in 1500ms
+2026-05-22 19:09:06 [INFO   ] src.drivers.adb_utils: Swiping (868,535) -> (345,510) in 1500ms
+2026-05-22 19:09:11 [INFO   ] framework.base.base_talent:   [Step 36] Test to verify user can Click on rectangle
+2026-05-22 19:09:11 [INFO   ] src.drivers.adb_utils: Swiping (1065,535) -> (500,395) in 1500ms
+2026-05-22 19:09:26 [INFO   ] framework.base.base_talent:   [Step 37] Test to verify user can exit by Click on cross icon from skill
+2026-05-22 19:09:26 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-22 19:09:28 [INFO   ] framework.base.base_talent:   [Step 38] Test to verify user can Click on Birds shape
+2026-05-22 19:09:28 [INFO   ] src.drivers.adb_utils: Tapping at (680, 385)
+2026-05-22 19:09:33 [INFO   ] framework.base.base_talent:   [Step 39] Test to verify user can Click on hen shape and drag and drop it properly
+2026-05-22 19:09:33 [INFO   ] src.drivers.adb_utils: Tapping at (285, 375)
+2026-05-22 19:09:37 [INFO   ] framework.base.base_talent:   [Step 40] Test to verify user can Click on head and drag and drop it properly
+2026-05-22 19:09:37 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (240,286) in 1500ms
+2026-05-22 19:09:41 [INFO   ] framework.base.base_talent:   [Step 41] Test to verify user can Click on triangle and drag and drop it properly
+2026-05-22 19:09:41 [INFO   ] src.drivers.adb_utils: Swiping (1046,199) -> (150,256) in 1500ms
+2026-05-22 19:09:45 [INFO   ] framework.base.base_talent:   [Step 42] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:09:45 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (320,400) in 1500ms
+2026-05-22 19:09:49 [INFO   ] framework.base.base_talent:   [Step 43] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:09:49 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (160,350) in 1500ms
+2026-05-22 19:09:54 [INFO   ] framework.base.base_talent:   [Step 44] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:09:54 [INFO   ] src.drivers.adb_utils: Swiping (837,367) -> (180,225) in 1500ms
+2026-05-22 19:09:58 [INFO   ] framework.base.base_talent:   [Step 45] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:09:58 [INFO   ] src.drivers.adb_utils: Swiping (1063,361) -> (580,285) in 1500ms
+2026-05-22 19:10:02 [INFO   ] src.drivers.adb_utils: Swiping (1063,361) -> (580,285) in 1500ms
+2026-05-22 19:10:07 [INFO   ] framework.base.base_talent:   [Step 46] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:10:07 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (160,350) in 1500ms
+2026-05-22 19:10:11 [INFO   ] framework.base.base_talent:   [Step 47] Test to verify user can Click on semi-circle
+2026-05-22 19:10:11 [INFO   ] src.drivers.adb_utils: Swiping (1055,535) -> (490,400) in 1500ms
+2026-05-22 19:10:15 [INFO   ] src.drivers.adb_utils: Swiping (1055,535) -> (490,400) in 1500ms
+2026-05-22 19:10:20 [INFO   ] src.drivers.adb_utils: Swiping (1055,535) -> (490,400) in 1500ms
+2026-05-22 19:10:24 [INFO   ] src.drivers.adb_utils: Swiping (1055,535) -> (490,400) in 1500ms
+2026-05-22 19:10:28 [INFO   ] framework.base.base_talent:   [Step 48] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:10:28 [INFO   ] src.drivers.adb_utils: Swiping (1055,535) -> (190,200) in 1500ms
+2026-05-22 19:10:33 [INFO   ] framework.base.base_talent:   [Step 49] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:10:33 [INFO   ] src.drivers.adb_utils: Swiping (850,535) -> (300,400) in 1500ms
+2026-05-22 19:10:37 [INFO   ] framework.base.base_talent:   [Step 50] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:10:37 [INFO   ] src.drivers.adb_utils: Swiping (1005,535) -> (280,545) in 1500ms
+2026-05-22 19:10:52 [INFO   ] framework.base.base_talent:   [Step 51] Test to verify user can Click on Owl shape and drag and drop it properly
+2026-05-22 19:10:52 [INFO   ] src.drivers.adb_utils: Tapping at (492, 378)
+2026-05-22 19:10:56 [INFO   ] framework.base.base_talent:   [Step 52] Test to verify user can Click on triangle and drag and drop it properly
+2026-05-22 19:10:56 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (270,158) in 1500ms
+2026-05-22 19:11:00 [INFO   ] framework.base.base_talent:   [Step 53] Test to verify user can Click on triangle and drag and drop it properly
+2026-05-22 19:11:00 [INFO   ] src.drivers.adb_utils: Swiping (1005,215) -> (320,148) in 1500ms
+2026-05-22 19:11:04 [INFO   ] framework.base.base_talent:   [Step 54] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:11:04 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (295,255) in 1500ms
+2026-05-22 19:11:09 [INFO   ] framework.base.base_talent:   [Step 55] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:11:09 [INFO   ] src.drivers.adb_utils: Swiping (1055,375) -> (295,395) in 1500ms
+2026-05-22 19:11:13 [INFO   ] framework.base.base_talent:   [Step 56] Test to verify user can Click on oval and drag and drop it properly
+2026-05-22 19:11:13 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (210,415) in 1500ms
+2026-05-22 19:11:17 [INFO   ] framework.base.base_talent:   [Step 57] Test to verify user can Click on oval and drag and drop it properly
+2026-05-22 19:11:17 [INFO   ] src.drivers.adb_utils: Swiping (1005,530) -> (390,415) in 1500ms
+2026-05-22 19:11:33 [INFO   ] framework.base.base_talent:   [Step 58] Test to verify user can Click on duck shape and drag and drop it properly
+2026-05-22 19:11:33 [INFO   ] src.drivers.adb_utils: Tapping at (741, 403)
+2026-05-22 19:11:37 [INFO   ] framework.base.base_talent:   [Step 59] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:11:37 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (340,355) in 1500ms
+2026-05-22 19:11:41 [INFO   ] framework.base.base_talent:   [Step 60] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:11:41 [INFO   ] src.drivers.adb_utils: Swiping (1005,375) -> (530,360) in 1500ms
+2026-05-22 19:11:45 [INFO   ] framework.base.base_talent:   [Step 61] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:11:45 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (525,375) in 1500ms
+2026-05-22 19:11:49 [INFO   ] framework.base.base_talent:   [Step 62] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:11:49 [INFO   ] src.drivers.adb_utils: Swiping (1005,215) -> (255,255) in 1500ms
+2026-05-22 19:11:53 [INFO   ] framework.base.base_talent:   [Step 63] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:11:53 [INFO   ] src.drivers.adb_utils: Swiping (1005,215) -> (255,255) in 1500ms
+2026-05-22 19:11:57 [INFO   ] framework.base.base_talent:   [Step 64] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:11:57 [INFO   ] src.drivers.adb_utils: Swiping (1005,530) -> (230,460) in 1500ms
+2026-05-22 19:12:02 [INFO   ] framework.base.base_talent:   [Step 65] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:12:02 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (255,440) in 1500ms
+2026-05-22 19:12:17 [INFO   ] framework.base.base_talent:   [Step 66] Test to verify user can Click on parot shape and drag and drop it properly
+2026-05-22 19:12:17 [INFO   ] src.drivers.adb_utils: Tapping at (926, 414)
+2026-05-22 19:12:21 [INFO   ] framework.base.base_talent:   [Step 67] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:12:21 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (320,255) in 1500ms
+2026-05-22 19:12:25 [INFO   ] framework.base.base_talent:   [Step 68] Test to verify user can Click on yellow quarter circle and drag and drop it properly
+2026-05-22 19:12:25 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (222,265) in 1500ms
+2026-05-22 19:12:30 [INFO   ] framework.base.base_talent:   [Step 69] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:12:30 [INFO   ] src.drivers.adb_utils: Swiping (1005,375) -> (225,385) in 1500ms
+2026-05-22 19:12:34 [INFO   ] framework.base.base_talent:   [Step 70] Test to verify user can Click on circle and drag and drop it properly
+2026-05-22 19:12:34 [INFO   ] src.drivers.adb_utils: Swiping (1046,220) -> (400,395) in 1500ms
+2026-05-22 19:12:38 [INFO   ] framework.base.base_talent:   [Step 71] Test to verify user can Click on semi-circle and drag and drop it properly
+2026-05-22 19:12:38 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (420,455) in 1500ms
+2026-05-22 19:12:43 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (420,455) in 1500ms
+2026-05-22 19:12:47 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (420,455) in 1500ms
+2026-05-22 19:12:51 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (420,455) in 1500ms
+2026-05-22 19:12:56 [INFO   ] framework.base.base_talent:   [Step 72] Test to verify user can Click on circle
+2026-05-22 19:12:56 [INFO   ] src.drivers.adb_utils: Swiping (1065,372) -> (490,395) in 1500ms
+2026-05-22 19:13:11 [INFO   ] framework.base.base_talent:   [Step 73] Test to verify user can exit by Click on cross icon from skill
+2026-05-22 19:13:11 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-22 19:13:13 [INFO   ] framework.base.base_talent:   [Step 74] Test to verify user can Click on wildlife category
+2026-05-22 19:13:13 [INFO   ] src.drivers.adb_utils: Tapping at (1048, 424)
+2026-05-22 19:13:18 [INFO   ] framework.base.base_talent:   [Step 75] Test to verify user can Click on hippo category
+2026-05-22 19:13:18 [INFO   ] src.drivers.adb_utils: Tapping at (341, 433)
+2026-05-22 19:13:22 [INFO   ] framework.base.base_talent:   [Step 76] Test to verify user can Click on oval
+2026-05-22 19:13:22 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (395,355) in 1500ms
+2026-05-22 19:13:26 [INFO   ] framework.base.base_talent:   [Step 77] Test to verify user can Click on oval
+2026-05-22 19:13:26 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (355,355) in 1500ms
+2026-05-22 19:13:30 [INFO   ] framework.base.base_talent:   [Step 78] Test to verify user can Click on circle
+2026-05-22 19:13:30 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (240,195) in 1500ms
+2026-05-22 19:13:35 [INFO   ] framework.base.base_talent:   [Step 79] Test to verify user can Click on circle
+2026-05-22 19:13:35 [INFO   ] src.drivers.adb_utils: Swiping (1065,375) -> (320,190) in 1500ms
+2026-05-22 19:13:39 [INFO   ] framework.base.base_talent:   [Step 80] Test to verify user can Click on rectangle
+2026-05-22 19:13:39 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (270,500) in 1500ms
+2026-05-22 19:13:43 [INFO   ] framework.base.base_talent:   [Step 81] Test to verify user can Click on rectangle
+2026-05-22 19:13:43 [INFO   ] src.drivers.adb_utils: Swiping (1065,530) -> (370,500) in 1500ms
+2026-05-22 19:13:47 [INFO   ] framework.base.base_talent:   [Step 82] Test to verify user can Click on rectangle
+2026-05-22 19:13:47 [INFO   ] src.drivers.adb_utils: Swiping (1065,530) -> (470,400) in 1500ms
+2026-05-22 19:14:03 [INFO   ] framework.base.base_talent:   [Step 83] Test to verify user can Click on tiger tile
+2026-05-22 19:14:03 [INFO   ] src.drivers.adb_utils: Tapping at (704, 631)
+2026-05-22 19:14:07 [INFO   ] framework.base.base_talent:   [Step 84] Test to verify user can Click on oval
+2026-05-22 19:14:07 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (520,400) in 1500ms
+2026-05-22 19:14:11 [INFO   ] framework.base.base_talent:   [Step 85] Test to verify user can Click on pink circle
+2026-05-22 19:14:11 [INFO   ] src.drivers.adb_utils: Swiping (1065,215) -> (325,210) in 1500ms
+2026-05-22 19:14:16 [INFO   ] framework.base.base_talent:   [Step 86] Test to verify user can Click on circle
+2026-05-22 19:14:16 [INFO   ] src.drivers.adb_utils: Swiping (1065,215) -> (420,210) in 1500ms
+2026-05-22 19:14:21 [INFO   ] framework.base.base_talent:   [Step 87] Test to verify user can Click on big circle
+2026-05-22 19:14:21 [INFO   ] src.drivers.adb_utils: Swiping (1065,375) -> (350,363) in 1500ms
+2026-05-22 19:14:25 [INFO   ] framework.base.base_talent:   [Step 88] Test to verify user can Click on rectangle 
+2026-05-22 19:14:25 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (308,498) in 1500ms
+2026-05-22 19:14:29 [INFO   ] framework.base.base_talent:   [Step 89] Test to verify user can Click on rectangle 
+2026-05-22 19:14:29 [INFO   ] src.drivers.adb_utils: Swiping (1056,530) -> (420,498) in 1500ms
+2026-05-22 19:14:45 [INFO   ] framework.base.base_talent:   [Step 90] Test to verify user can Click on monkey tile
+2026-05-22 19:14:45 [INFO   ] src.drivers.adb_utils: Tapping at (704, 631)
+2026-05-22 19:14:50 [INFO   ] framework.base.base_talent:   [Step 91] Test to verify user can Click on circle 
+2026-05-22 19:14:50 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (355,285) in 1500ms
+2026-05-22 19:14:53 [INFO   ] framework.base.base_talent:   [Step 92] Test to verify user can Click on circle 
+2026-05-22 19:14:53 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (300,285) in 1500ms
+2026-05-22 19:14:58 [INFO   ] framework.base.base_talent:   [Step 93] Test to verify user can Click on circle 
+2026-05-22 19:14:58 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (300,285) in 1500ms
+2026-05-22 19:15:02 [INFO   ] framework.base.base_talent:   [Step 94] Test to verify user can Click on rectangle 
+2026-05-22 19:15:02 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (295,390) in 1500ms
+2026-05-22 19:15:07 [INFO   ] framework.base.base_talent:   [Step 95] Test to verify user can Click on rectangle 
+2026-05-22 19:15:07 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (435,390) in 1500ms
+2026-05-22 19:15:11 [INFO   ] framework.base.base_talent:   [Step 96] Test to verify user can Click on rectangle 
+2026-05-22 19:15:11 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (328,510) in 1500ms
+2026-05-22 19:15:15 [INFO   ] framework.base.base_talent:   [Step 97] Test to verify user can Click on rectangle 
+2026-05-22 19:15:15 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (428,510) in 1500ms
+2026-05-22 19:15:20 [INFO   ] framework.base.base_talent:   [Step 98] Test to verify user can Click on square 
+2026-05-22 19:15:20 [INFO   ] src.drivers.adb_utils: Swiping (1065,530) -> (335,440) in 1500ms
+2026-05-22 19:15:24 [INFO   ] framework.base.base_talent:   [Step 99] Test to verify user can Click on rectangle 
+2026-05-22 19:15:24 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (428,550) in 1500ms
+2026-05-22 19:15:28 [INFO   ] framework.base.base_talent:   [Step 100] Test to verify user can Click on rectangle 
+2026-05-22 19:15:28 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (328,550) in 1500ms
+2026-05-22 19:15:44 [INFO   ] framework.base.base_talent:   [Step 101] Test to verify user can Click on bear tile
+2026-05-22 19:15:44 [INFO   ] src.drivers.adb_utils: Tapping at (995, 497)
+2026-05-22 19:15:48 [INFO   ] framework.base.base_talent:   [Step 102] Test to verify user can Click on circle 
+2026-05-22 19:15:48 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (295,220) in 1500ms
+2026-05-22 19:15:52 [INFO   ] framework.base.base_talent:   [Step 103] Test to verify user can Click on circle 
+2026-05-22 19:15:52 [INFO   ] src.drivers.adb_utils: Swiping (868,215) -> (320,250) in 1500ms
+2026-05-22 19:15:56 [INFO   ] framework.base.base_talent:   [Step 104] Test to verify user can Click on circle 
+2026-05-22 19:15:56 [INFO   ] src.drivers.adb_utils: Swiping (1065,215) -> (365,370) in 1500ms
+2026-05-22 19:16:00 [INFO   ] framework.base.base_talent:   [Step 105] Test to verify user can Click on circle 
+2026-05-22 19:16:00 [INFO   ] src.drivers.adb_utils: Swiping (1065,392) -> (425,220) in 1500ms
+2026-05-22 19:16:04 [INFO   ] framework.base.base_talent:   [Step 106] Test to verify user can Click on oval 
+2026-05-22 19:16:04 [INFO   ] src.drivers.adb_utils: Swiping (868,375) -> (218,390) in 1500ms
+2026-05-22 19:16:09 [INFO   ] framework.base.base_talent:   [Step 107] Test to verify user can Click on oval 
+2026-05-22 19:16:09 [INFO   ] src.drivers.adb_utils: Swiping (1055,530) -> (428,540) in 1500ms
+2026-05-22 19:16:13 [INFO   ] framework.base.base_talent:   [Step 108] Test to verify user can Click on oval 
+2026-05-22 19:16:13 [INFO   ] src.drivers.adb_utils: Swiping (868,530) -> (445,390) in 1500ms
+2026-05-22 19:16:17 [INFO   ] framework.base.base_talent:   [Step 109] Test to verify user can Click on oval 
+2026-05-22 19:16:17 [INFO   ] src.drivers.adb_utils: Swiping (1055,530) -> (328,540) in 1500ms
+2026-05-22 19:16:32 [INFO   ] framework.base.base_talent:   [Step 110] Test to verify user can Exit - Click on cross icon from skill
+2026-05-22 19:16:32 [INFO   ] src.drivers.adb_utils: Tapping at (52, 58)
+2026-05-22 19:16:35 [INFO   ] framework.base.base_talent:   [Step 111] Test to verify user can Exit - Click on exit icon to comeback to root screen 1
+2026-05-22 19:16:35 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-22 19:16:37 [INFO   ] framework.base.base_talent:   [Step 112] Test to verify user can Exit - Click on exit icon
+2026-05-22 19:16:37 [INFO   ] src.drivers.adb_utils: Tapping at (439, 490)
+2026-05-22 19:16:40 [INFO   ] framework.base.base_talent:   [Step 113] Test to verify user can Exit - Click on exit icon to comeback to root screen 2
+2026-05-22 19:16:40 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-22 19:16:44 [INFO   ] framework.base.base_talent: --- Verify Phase ---
+2026-05-22 19:16:44 [INFO   ] framework.base.base_talent:   [Step 114] Verify no crashes
+2026-05-22 19:16:45 [INFO   ] __main__: VALIDATION PASSED: Crash Detection - No crashes or ANRs detected in logcat
+2026-05-22 19:16:45 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.shapeoflife
+2026-05-22 19:16:45 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-22 19:16:47 [INFO   ] framework.base.base_talent: Teardown complete for Shape to Life
+2026-05-22 19:16:48 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-22 19:16:48 [INFO   ] framework.base.base_talent: TEST PASSED: Shape to Life (783.3s) — 114/114 steps passed, 0 steps failed
+2026-05-22 19:16:48 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-22 19:16:48 [INFO   ] ShapeToLifeFlowTest: Generating standalone HTML report...
+2026-05-22 19:16:48 [INFO   ] framework.reporter.html_report: Report generated: reports\shape_to_life_20260522_190344\AutomationReport_shape_to_life_20260522_190344.html
+2026-05-22 19:16:48 [INFO   ] framework.reporter.html_report: Generating PDF report...
+2026-05-22 19:16:54 [INFO   ] framework.reporter.html_report: PDF Report generated: reports\shape_to_life_20260522_190344\AutomationReport_shape_to_life_20260522_190344.pdf
